@@ -62,6 +62,13 @@ Image Segmentation using U-NET Architecture
   
   <p> The architecture has been modified as per the rquirements for this project. The details of the modified architecture is given below: <br>
   <img src = "https://user-images.githubusercontent.com/35571958/80313619-9c80ee80-8809-11ea-9f3a-c165077175ce.png"></img>
+  <p>There are two Conv2D layer followed by a MaxPooling layer in every stage of the encoder. Similarly in the decoder part there are two Conv2DTranspose layers in each stage. Each Convolution operation is followed by a Dropout. 
+  
+The total no:of parameters are: 
+
+Total params: 1,941,105<br>
+Trainable params: 1,941,105<br>
+Non-trainable params: 0 </p>
 
   <hr style="width:50%; text-align:left; margin-left:0">
 
