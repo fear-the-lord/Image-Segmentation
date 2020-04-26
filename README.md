@@ -73,7 +73,8 @@ Non-trainable params: 0 </p>
   <hr style="width:50%; text-align:left; margin-left:0">
   
   <h2>Results</h2>
-  <p>The outputs observed as yellow patches that shows the position of the nucleus in a cell. 
+  <p>The outputs observed as yellow patches that shows the position of the nucleus in a cell.
+  <img src = "https://user-images.githubusercontent.com/35571958/80315432-24b8c100-8815-11ea-8196-7f944f05b071.png"></img>
 
 
  
