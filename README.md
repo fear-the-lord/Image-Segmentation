@@ -1,5 +1,5 @@
 # Image-Segmentation
-Image Segmentation using U-NET Architecture
+Image Segmentation using U-NET Architecture.
 
 <h2>Problem Statement</h2>
 <p>Find the nuclei in divergent images to advance medical discovery.</p>
