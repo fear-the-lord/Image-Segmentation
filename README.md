@@ -61,5 +61,6 @@ Image Segmentation using U-NET Architecture
   <p>This is a pretty simple architecture and easy to implement architecture. The link to the paper is: <a href="https://arxiv.org/pdf/1505.04597.pdf">Paper Link.</a>
   
   <p> The architecture has been modified as per the rquirements for this project. The details of the modified architecture is given below: <br>
-  <img src="C:\Users\admin\Pictures\Screenshots\Screenshot(256).png" alt="U-Net Architecture">
+  <img src="https://ibb.co/WDxXwP3" alt="U-Net Architecture" width="128" height="128"></img>
+ 
   
