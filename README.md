@@ -71,6 +71,9 @@ Trainable params: 1,941,105<br>
 Non-trainable params: 0 </p>
 
   <hr style="width:50%; text-align:left; margin-left:0">
+  
+  <h2>Results</h2>
+  <p>The outputs observed as yellow patches that shows the position of the nucleus in a cell. 
 
 
  
