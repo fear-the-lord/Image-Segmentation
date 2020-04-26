@@ -54,4 +54,12 @@ Image Segmentation using U-NET Architecture
   <p>The images and masks of the training set are converted to a fixed dimensions of <b>128*128*3</b>. The images of the test set are converted      to the same dimensions of <b>128*128*3</b>. Create a numpy array <b>X_train</b> to store the image pixels of the training set and another      numpy array <b>Y_train</b> to store the the merged mask pixels of each image of the training set. Store the image pixels of the          test set and store it in a numpy array named <b>X_test</b>.</p>
   
    <hr style="width:50%; text-align:left; margin-left:0">
+   
+  <h2>U-NET Architecture</h2>
+  <p>The U-NET was developed by Olaf Ronneberger et al. for Bio Medical Image Segmentation. The architecture contains two paths. First path is the <b>contraction path</b> (also called as the encoder) which is used to capture the context in the image. The encoder is just a traditional stack of convolutional and max pooling layers. The second path is the <b>symmetric expanding path</b> (also called as the decoder) which is used to enable precise localization using transposed convolutions. Thus it is an end-to-end fully convolutional network (FCN), i.e. it only contains Convolutional layers and does not contain any Dense layer because of which it can accept image of any size.</p>
+  
+  <p>This is a pretty simple architecture and easy to implement architecture. The link to the paper is: <a href="https://arxiv.org/pdf/1505.04597.pdf">Paper Link.</a>
+  
+  <p> The architecture has been modified as per the rquirements for this project. The details of the modified architecture is given below: <br>
+  <img src="C:\Users\admin\Pictures\Screenshots\Screenshot(256).png" alt="U-Net Architecture">
   
