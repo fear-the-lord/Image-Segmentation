@@ -75,6 +75,8 @@ Non-trainable params: 0 </p>
   <h2>Results</h2>
   <p>The output image will have yellow patches that shows the position of the nucleus in a cell.
   <img src = "https://user-images.githubusercontent.com/35571958/80315432-24b8c100-8815-11ea-8196-7f944f05b071.png"></img>
+  
+  <p>&#169; Souvik Ghosh </p>
 
 
  
